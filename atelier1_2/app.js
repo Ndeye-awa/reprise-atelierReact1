@@ -11,7 +11,7 @@ class Todos extends React.Component {
       <div className="container mt-4">
         <h1>To-do List</h1>
         <p>{this.state.input}</p>
-        <div className="input-group mb-3">
+        <div className="input-group mb-4">
           <input
             type="text"
             value={this.state.input}
